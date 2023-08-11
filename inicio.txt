@@ -1,0 +1,32 @@
+creamos el archivo .editorconfig
+creamos el archivo .gitignore
+
+npm init -y
+
+para guardar en modo desarrollador
+npm i typescript --saver-dev
+
+npx tsc --v
+verificar version
+
+se crear el tsconfig.json
+npx tsc --init
+
+editamo del tsconfig.json donde se guardara el archivo js que traspilara
+"outDir": "./dist",
+
+para compilar
+ npx tsc
+
+para que este compilando de manera constante
+ npx tsc --watch
+
+usaremos la libreria ts-node para compilar directo el codigo TS y solo correra en backed que este soportado solo sirve para particar por el momento
+npm install -D ts-node
+
+para compilar el codigo ts
+npx ts-node ./directorio.ts
+
+
+Libreria Capacitor para probar los enum
+npm install @capacitor/camera
